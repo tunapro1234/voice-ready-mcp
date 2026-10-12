@@ -1,0 +1,5 @@
+[
+  { "tool": "check_order_status", "arguments": { "orderId": "A-100" } },
+  { "tool": "summarize_day", "arguments": {} },
+  { "tool": "open_dashboard", "arguments": {} }
+]

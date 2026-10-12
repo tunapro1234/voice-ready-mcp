@@ -1,0 +1,5 @@
+[
+  { "tool": "markdown_reply", "arguments": {} },
+  { "tool": "slow_reply", "arguments": {} },
+  { "tool": "open_dashboard", "arguments": {} }
+]
