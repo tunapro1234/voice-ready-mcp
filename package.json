@@ -1,0 +1,43 @@
+{
+  "name": "voice-ready-mcp",
+  "version": "0.1.0",
+  "description": "Checks whether an MCP server is ready to be used by a voice assistant: speakable replies, latency budget, transport guards and MCP Apps MIME types.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "voice-ready-mcp": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepare": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "voice",
+    "lint",
+    "latency"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "5.9.3",
+    "vite": "^8.3.1",
+    "vitest": "5.0.3"
+  }
+}
