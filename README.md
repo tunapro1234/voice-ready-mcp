@@ -4,13 +4,13 @@ voice-ready-mcp checks whether a Model Context Protocol (MCP) server is ready fo
 
 ## Install
 
-Run it without installing:
+The package is not on the npm registry. Run it from the Git tag without installing:
 
 ```sh
-npx voice-ready-mcp --url http://127.0.0.1:3000/mcp --fixtures calls.json
+npx github:tunapro1234/voice-ready-mcp#v0.1.0 --url http://127.0.0.1:3000/mcp --fixtures calls.json
 ```
 
-Or add it to a project from the Git tag:
+Or add it to a project:
 
 ```sh
 npm install github:tunapro1234/voice-ready-mcp#v0.1.0
