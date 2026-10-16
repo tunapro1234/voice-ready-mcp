@@ -119,7 +119,7 @@ Date of search: 2026-10-12.
 
 Queries, run on the web: "voice mcp lint speakable reply latency budget check npm"; "mcp speakable voice check github model context protocol voice assistant lint"; ""mcp" "latency budget" voice tool response checker npm package"; "npm search voice-ready mcp conformance MCP Apps text/html;profile=mcp-app checker". Registry searches on npm: "speakable mcp", "voice mcp lint", "mcp latency".
 
-Result: not found. No package or tool we saw checks whether MCP tool replies are speakable, or applies a latency budget to MCP tool calls for voice use. Places looked: npm search results, GitHub and directory listings of voice MCP servers (for example speak2me-mcp, VoiceMode, Speech MCP Server), and MCP testing guides.
+Result: not found. No package or tool I saw checks whether MCP tool replies are speakable, or applies a latency budget to MCP tool calls for voice use. Places looked: npm search results, GitHub and directory listings of voice MCP servers (for example speak2me-mcp, VoiceMode, Speech MCP Server), and MCP testing guides.
 
 Adjacent tools that do something else:
 - [mcp-compliance](https://www.getdrio.com/mcp/io-github-yawlabs-mcp-compliance/md) and [mcp-protocol-conformance](https://www.getdrio.com/mcp/io-studiomeyer-protocol-conformance/md): spec compliance, not voice.
